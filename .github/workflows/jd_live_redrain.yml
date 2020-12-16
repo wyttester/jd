@@ -2,7 +2,7 @@ name: jd_live_redrain
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1,3,5,7,9,11,12,13,15 * * *' # 每天0,9,11,13,15,17,19,20,21,23可领
+    - cron: '55,59 1,3,5,7,9,11,12,13,15 * * *' # 每天0,9,11,13,15,17,19,20,21,23可领
 jobs:
   build:
     runs-on: ubuntu-latest
