@@ -9,10 +9,6 @@
 2. 配置仓库同步的token以及脚本所需的环境变量.
 3. 手动启用或取消 或者 cron自动触发.
 
-## FAQ
-
-### 问题：[issues-32](https://github.com/lxk0301/jd_scripts/issues/32)
-
 ### 解决方案如下:
 
 1. 重新建立一个[jd_scripts](https://github.com/lxk0301/jd_scripts)的[镜像库](https://github.com/zdrka/jd_scripts_mirror)
