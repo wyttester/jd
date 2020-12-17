@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: DingChang90/jd
+          repository: zdrka/jd_scripts_mirror
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -27,7 +27,7 @@ jobs:
           npm install
       - name: '运行 【京东看一看】'
         run: |
-          node 123.js
+          node jd_watch.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
