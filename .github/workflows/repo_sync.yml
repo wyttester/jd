@@ -1,4 +1,4 @@
-name: sync-DingChang90-yml-yml
+name: sync-DingChang90-yml
 on:
   schedule:
     - cron: '0 0-16/4 * * *'
