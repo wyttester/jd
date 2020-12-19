@@ -5,6 +5,7 @@
    2.1 <strong><span style="color:#E53333;">Name</span></strong>：JD_COOKIE               <strong><span style="color:#E53333;">Value</span></strong>：京东cookie值<br> 
    2.2 <strong><span style="color:#E53333;">Name</span></strong>：PUSH_KEY                <strong><span style="color:#E53333;">Value</span></strong>：方糖server酱的SCKEY值<br> 
    2.3 <strong><span style="color:#E53333;">Name</span></strong>：PLANT_BEAN_SHARECODES   <strong><span style="color:#E53333;">Value</span></strong>：6bt3cevhrvlllf56ghfsi3ebjq@4npkonnsy7xi3suwyjqzifyng6djsbatsdz7pta@5kuvbyio45zwf7uarwradlbd4izc6balx7sq2bq <br> 
+   2.4 <strong><span style="color:#E53333;">Name</span></strong>：DREAM_FACTORY_SHARE_CODES <strong><span style="color:#E53333;">Value</span></strong>：HV9KDncxpspXYfu8mtloOA==@9zVe9I2YCDioR6g2pYiSWg==@b6zWUPeEWet8oMfIBpXAvA== <br> 
 
 
 [镜像库](https://github.com/zdrka/jd_scripts_mirror)
