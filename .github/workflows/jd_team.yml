@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: zdrka/jd_scripts_mirror
+          repository: DingChang90/jd
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -27,7 +27,7 @@ jobs:
           npm install
       - name: '运行 【开卡活动】'
         run: |
-          node once/jd_team.js
+          node jd_team.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
