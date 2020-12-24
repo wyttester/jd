@@ -1,8 +1,8 @@
 name: crazy_joy
 on:
   workflow_dispatch:
-  #schedule:
-    #- cron: '30 0 * * *'
+  schedule:
+    - cron: '0 5,12,22 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
