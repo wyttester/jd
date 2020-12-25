@@ -1,4 +1,4 @@
-name: jd_crazy_joy
+name: 疯狂的JOY每日任务
 on:
   workflow_dispatch:
   schedule:
