@@ -1,8 +1,8 @@
-name: crazy_joy
+name: jd_crazy_joy
 on:
   workflow_dispatch:
-  #schedule:
-    #- cron: '0 5,12,22 * * *' #早晨六点运行，中午一点运行，晚上八点运行。 每次六小时。
+  schedule:
+    - cron: '13 1 * * *' 
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【疯狂的JOY】'
+      - name: '运行 【疯狂的JOY任务】'
         run: |
           node jd_crazy_joy.js
         env:
