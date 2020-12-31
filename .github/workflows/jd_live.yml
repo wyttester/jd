@@ -2,7 +2,7 @@ name: jd_live
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1,2,3 * * *'
+    - cron: '15 0,1,2 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
