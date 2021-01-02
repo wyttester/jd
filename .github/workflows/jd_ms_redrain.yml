@@ -1,8 +1,8 @@
-name: jd_ms_redrain
+name: 秒杀红包雨【活动已结束】
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '20 3 * * *'
+  #schedule:
+    #- cron: '20 3 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
